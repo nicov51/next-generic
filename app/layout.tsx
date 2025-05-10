@@ -1,12 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
-import { Box } from "@mui/material";
+import React from "react";
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Plafonds tendus",
@@ -20,12 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-    <body className={inter.className}>
+    <body className="bg-white text-black p-0 m-0">
+    <AppRouterCacheProvider>
     <Navbar />
-    <Box component="main" sx={{ minHeight: "calc(100vh - 160px)", paddingTop: "80px" }}>
-      {children}
-    </Box>
+    {children}
     <Footer />
+    </AppRouterCacheProvider>
     </body>
     </html>
   );

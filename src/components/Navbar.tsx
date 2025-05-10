@@ -13,7 +13,10 @@ const navItems = [
 
 export default function Navbar() {
   return (
-    <AppBar position="fixed" color="default" elevation={1}>
+    <AppBar position="fixed" elevation={1} sx={{
+      backgroundColor: "var(--bg-header)",
+      color: "white"
+    }}>
       <Toolbar sx={{ justifyContent: "space-between" }}>
         <Typography variant="h6" component="div">
           {/* Ton logo ici */}
