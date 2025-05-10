@@ -18,13 +18,13 @@ export default function ContactPage() {
         Contactez-nous
       </Typography>
 
-      <Typography variant="body1" paragraph>
+      <Typography variant="body1">
         Spécialiste du plafond tendu, nous sommes à votre écoute.
       </Typography>
 
       <Stack spacing={2} mt={4}>
         <Typography variant="body1">
-          <strong>Nom de l'entreprise :</strong> PlafondDesign
+          <strong>Nom de l entreprise :</strong> PlafondDesign
         </Typography>
         <Typography variant="body1">
           <strong>Email :</strong> contact@plafonddesign.fr
@@ -53,7 +53,7 @@ export default function ContactPage() {
       {/* Ajout de la carte et du message */}
       <Box mt={8}>
         <Typography variant="h5" gutterBottom>
-          Zone d'intervention
+          Zone d intervention
         </Typography>
         <Image
           src="/images/zoneIntervention.png"

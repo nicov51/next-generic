@@ -5,7 +5,7 @@ import { Box, Container, Typography } from "@mui/material";
 
 export default function Footer() {
   return (
-    <Box component="footer" sx={{ backgroundColor: "#1e3a8a", color: "#ffffff", py: 6, mt: 6 }}>
+    <Box component="footer" >
       <Container maxWidth="lg">
         <Box
           display="grid"
@@ -26,7 +26,7 @@ export default function Footer() {
                 <Link href="/footer/cgv">CGV</Link>
               </li>
               <li>
-                <Link href="/footer/conditions-utilisation">Conditions d'utilisation</Link>
+                <Link href="/footer/conditions-utilisation">Conditions d utilisation</Link>
               </li>
               <li>
                 <Link href="/footer/politique-confidentialite">Politique de confidentialité</Link>
@@ -42,7 +42,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
               <li>contact@monartisan.fr</li>
               <li>06 00 00 00 00</li>
-              <li>123 rue de l'Artisanat, 75000 Paris</li>
+              <li>123 rue de l Artisanat, 75000 Paris</li>
             </ul>
           </Box>
 
@@ -61,7 +61,7 @@ export default function Footer() {
         {/* Copyright */}
         <Box mt={4} textAlign="center">
           <Typography variant="body2" color="rgba(255,255,255,0.7)">
-            &copy; {new Date().getFullYear()} MonArtisan. Tous droits réservés.
+            &copy; 2025 MonArtisan. Tous droits réservés.
           </Typography>
         </Box>
       </Container>

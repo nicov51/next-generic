@@ -4,10 +4,10 @@ export default function ConditionsUtilisationPage() {
   return (
     <Container maxWidth="md" sx={{ py: 6 }}>
       <Typography variant="h4" gutterBottom>
-        Conditions d'utilisation
+        Conditions d utilisation
       </Typography>
       <Typography component="p">
-        L'utilisation de ce site implique l'acceptation pleine et entière des présentes conditions générales d'utilisation.
+        L utilisation de ce site implique l acceptation pleine et entière des présentes conditions générales d utilisation.
       </Typography>
       <Typography component="p">
         Le site est accessible à tout moment, mais peut être suspendu pour maintenance. Les contenus sont régulièrement mis à jour.

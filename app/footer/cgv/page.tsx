@@ -7,7 +7,7 @@ export default function CGVPage() {
         Conditions Générales de Vente
       </Typography>
       <Typography component="p">
-        Les présentes conditions générales de vente s'appliquent à toutes les prestations fournies par notre entreprise.
+        Les présentes conditions générales de vente s appliquent à toutes les prestations fournies par notre entreprise.
       </Typography>
       <Typography component="p">
         Toute commande implique l’adhésion sans réserve du client à ces CGV. Les prestations sont décrites précisément dans le devis accepté.
